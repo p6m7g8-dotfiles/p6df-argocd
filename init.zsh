@@ -32,14 +32,14 @@ p6df::modules::argocd::external::brew() {
 ######################################################################
 #<
 #
-# Function: str info = p6df::modules::argocd::prompt::line()
+# Function: str info = p6df::modules::argocd::prompt::mod()
 #
 #  Returns:
 #	str - info
 #
 #>
 ######################################################################
-p6df::modules::argocd::prompt::line() {
+p6df::modules::argocd::prompt::mod() {
 
   #  local info="argocd:"
   local info=""
