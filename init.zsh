@@ -22,9 +22,9 @@ p6df::modules::argocd::deps() {
 ######################################################################
 p6df::modules::argocd::external::brew() {
 
-  p6df::modules::homebrew::cli::brew::install argocd
-  p6df::modules::homebrew::cli::brew::install argocd-autopilot
-  p6df::modules::homebrew::cli::brew::install argocd-vault-plugin
+  p6df::core::homebrew::cli::brew::install argocd
+  p6df::core::homebrew::cli::brew::install argocd-autopilot
+  p6df::core::homebrew::cli::brew::install argocd-vault-plugin
 
   p6_return_void
 }
