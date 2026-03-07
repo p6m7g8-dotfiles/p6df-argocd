@@ -17,7 +17,8 @@
 
 ## Summary
 
-TODO: Add a short summary of this module.
+p6df module for ArgoCD: GitOps CLI tools (`argocd`, `argocd-autopilot`) and
+MCP server (`@modelcontextprotocol/server-argocd`) for AI-driven GitOps workflows.
 
 ## Contributing
 
@@ -37,6 +38,7 @@ TODO: Add a short summary of this module.
 
 - `p6df::modules::argocd::deps()`
 - `p6df::modules::argocd::external::brew()`
+- `p6df::modules::argocd::mcp()`
 - `str info = p6df::modules::argocd::prompt::mod()`
 
 ## Hierarchy
