@@ -17,8 +17,8 @@
 
 ## Summary
 
-p6df module for ArgoCD: GitOps CLI tools (`argocd`, `argocd-autopilot`) and
-MCP server (`@modelcontextprotocol/server-argocd`) for AI-driven GitOps workflows.
+p6df module for ArgoCD: CLI tools (`argocd`), profile switching, and MCP
+server (`argocd-mcp`) for AI-driven GitOps application management.
 
 ## Contributing
 

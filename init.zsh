@@ -38,7 +38,7 @@ p6df::modules::argocd::external::brew() {
 ######################################################################
 p6df::modules::argocd::mcp() {
 
-  p6_js_npm_global_install "@modelcontextprotocol/server-argocd"
+  p6_js_npm_global_install "argocd-mcp"
 
   p6_return_void
 }
