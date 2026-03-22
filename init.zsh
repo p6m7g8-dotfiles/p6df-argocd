@@ -10,6 +10,7 @@ p6df::modules::argocd::deps() {
   ModuleDeps=(
     p6m7g8-dotfiles/p6df-kubernetes
     ohmyzsh/ohmyzsh:plugins/argocd
+    ahmedasmar/devops-claude-skills:gitops-workflows
   )
 }
 
