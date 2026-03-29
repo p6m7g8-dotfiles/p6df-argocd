@@ -32,11 +32,11 @@ p6df::modules::argocd::home::symlinks() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::argocd::external::brew()
+# Function: p6df::modules::argocd::external::brews()
 #
 #>
 ######################################################################
-p6df::modules::argocd::external::brew() {
+p6df::modules::argocd::external::brews() {
 
   p6df::core::homebrew::cli::brew::install argocd
   p6df::core::homebrew::cli::brew::install argocd-autopilot
