@@ -56,6 +56,9 @@ p6df::modules::argocd::mcp() {
 
   p6_js_npm_global_install "argocd-mcp"
 
+  p6df::modules::anthropic::mcp::server::add "argocd" "npx" "-y" "argocd-mcp"
+  p6df::modules::openai::mcp::server::add "argocd" "npx" "-y" "argocd-mcp"
+
   p6_return_void
 }
 
