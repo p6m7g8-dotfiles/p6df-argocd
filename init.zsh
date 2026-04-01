@@ -75,5 +75,5 @@ p6df::modules::argocd::mcp() {
 ######################################################################
 p6df::modules::argocd::profile::mod() {
 
-  p6_return_words 'argocd' '$KUBECONFIG'
+  p6_return_words 'argocd' "$"
 }
