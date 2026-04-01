@@ -65,17 +65,15 @@ p6df::modules::argocd::mcp() {
 ######################################################################
 #<
 #
-# Function: str info = p6df::modules::argocd::prompt::mod()
+# Function: words argocd = p6df::modules::argocd::profile::mod()
 #
 #  Returns:
-#	str - info
+#	words - argocd
 #
+#  Environment:	 KUBECONFIG
 #>
 ######################################################################
-p6df::modules::argocd::prompt::mod() {
+p6df::modules::argocd::profile::mod() {
 
-  #  local info="argocd:"
-  local info=""
-
-  p6_return_str "$info"
+  p6_return_words 'argocd' '$KUBECONFIG'
 }
