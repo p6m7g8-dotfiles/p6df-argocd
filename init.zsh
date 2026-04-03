@@ -17,21 +17,6 @@ p6df::modules::argocd::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::argocd::home::symlinks()
-#
-#  Environment:	 HOME P6_DFZ_SRC_DIR
-#>
-######################################################################
-p6df::modules::argocd::home::symlinks() {
-
-  p6_file_symlink "$P6_DFZ_SRC_DIR/ahmedasmar/devops-claude-skills/gitops-workflows"  "$HOME/.claude/skills/gitops-workflows"
-
-  p6_return_void
-}
-
-######################################################################
-#<
-#
 # Function: p6df::modules::argocd::external::brews()
 #
 #>
@@ -60,20 +45,4 @@ p6df::modules::argocd::mcp() {
   p6df::modules::openai::mcp::server::add "argocd" "npx" "-y" "argocd-mcp"
 
   p6_return_void
-}
-
-######################################################################
-#<
-#
-# Function: words argocd = p6df::modules::argocd::profile::mod()
-#
-#  Returns:
-#	words - argocd
-#
-#  Environment:	 KUBECONFIG
-#>
-######################################################################
-p6df::modules::argocd::profile::mod() {
-
-  p6_return_words 'argocd' "$"
 }
