@@ -17,8 +17,7 @@
 
 ## Summary
 
-p6df module for ArgoCD: CLI tools (`argocd`), profile switching, and MCP
-server (`argocd-mcp`) for AI-driven GitOps application management.
+TODO: Add a short summary of this module.
 
 ## Contributing
 
@@ -37,9 +36,8 @@ server (`argocd-mcp`) for AI-driven GitOps application management.
 ##### p6df-argocd/init.zsh
 
 - `p6df::modules::argocd::deps()`
-- `p6df::modules::argocd::external::brew()`
+- `p6df::modules::argocd::external::brews()`
 - `p6df::modules::argocd::mcp()`
-- `str info = p6df::modules::argocd::prompt::mod()`
 
 ## Hierarchy
 
